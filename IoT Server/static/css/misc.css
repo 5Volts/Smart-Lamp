@@ -1,0 +1,21 @@
+#brightness{
+  -webkit-appearance:none;
+  background:#d3d3d3;
+  outline=none;
+  opacity:0.7
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+#brightness:hover{
+  opacity:1;
+}
+
+#brightness::-webkit-slider-thumb{
+  --webkit-appearance:none;
+  width:30px;
+  height:30px;
+  appearance: none;
+  background: #4CAF50;
+  cursor:pointer;
+}

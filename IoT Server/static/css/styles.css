@@ -1,0 +1,37 @@
+body {
+  background:rgb(224,225,237);
+}
+
+.navbar.navbar-light.navbar-expand-md {
+  background-color:white;
+  box-shadow:0 0 15px rgba(0,0,0,0.5);
+}
+
+#maincontrol {
+  width:80%;
+  height:80vh;
+  margin-left:10%;
+  margin-top:2%;
+  background-color:white;
+  box-shadow:0 0 5px rgba(0,0,0,0.5);
+}
+
+#life_or_not {
+  width:25px;
+  height:25px;
+  margin:5px;
+  float:left;
+}
+
+#color_in {
+  float:left;
+  margin-top:25%;
+  margin-left:10%;
+}
+
+#brightness {
+  margin-top:25%;
+  float:right;
+  margin-right:10%;
+}
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Totalitarian</title>
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="stylesheet" href="static/css/misc.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md">
+        <div class="container-fluid"><a class="navbar-brand" href="#">Totalitarian</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Smart Lamp</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Smart Dustbin</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Smart Flower Pot</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="maincontrol"><img id="life_or_not" style="background-image:url(&quot;static/img/live.png&quot;);color:rgba(255,255,255,0);background-color:rgba(255,255,255,0);">
+        <input type="color" id="color_in" onchange="send_color(this.value);">
+        <input type="range" min="0" max="255" value="123" id="brightness" onchange="send_brightness(this.value);"></div>
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="static/js/misc.js"></script>
+</body>
+
+</html>
